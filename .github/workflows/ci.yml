@@ -23,7 +23,7 @@ jobs:
       - name: Run linter
         run: flake8 app.py
       - name: Run tests
-        run: pytest test_app.py
+        run: pytest teste.py
       - name: Build artifact
         run: |
           chmod +x build.sh
